@@ -18,4 +18,3 @@ describe("getAPIKey", () => {
     expect(getAPIKey({ authorization: "ApiKey mySecretKey" })).toBe("mySecretKey");
   });
 });
-test("broken", () => { expect(1).toBe(2); });
